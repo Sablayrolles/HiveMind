@@ -1,0 +1,4 @@
+soundRecord.MainActivity, soundRecord;md5aff0d8777c64ac7a2dd1fc222330283f.MainActivity
+soundRecord.MainActivity, soundRecord, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5aff0d8777c64ac7a2dd1fc222330283f.MainActivity
+soundRecord.MainActivity;md5aff0d8777c64ac7a2dd1fc222330283f.MainActivity
+soundrecord.MainActivity;md5aff0d8777c64ac7a2dd1fc222330283f.MainActivity
