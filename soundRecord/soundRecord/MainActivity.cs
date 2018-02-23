@@ -104,19 +104,19 @@ namespace soundRecord
                 string path2;
                 path2 = path + nb + ".3gpp";
                 // Test : displaySec.Text = path2;
-                /*recorder.SetAudioSource(AudioSource.Mic);
+                recorder.SetAudioSource(AudioSource.Mic);
                 recorder.SetOutputFormat(OutputFormat.ThreeGpp);
                 recorder.SetAudioEncoder(AudioEncoder.AmrNb);
                 recorder.SetOutputFile(path);
                 recorder.Prepare();
-                recorder.Start();*/
+                recorder.Start();
             }
 
             // Stop audio record
             void stopAudioRecord()
             {
-                /*recorder.Stop();
-                recorder.Reset();*/
+                recorder.Stop();
+                recorder.Reset();
             }
 
             // Function which is running each x seconds, where x is the number chosen by the user
