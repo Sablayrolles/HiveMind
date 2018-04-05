@@ -27,12 +27,14 @@ namespace soundRecord
             SeekBar seek = FindViewById<SeekBar>(Resource.Id.seekBar1);
             // Get the TextView where we display the Seek Bar information
             TextView displaySec = FindViewById<TextView>(Resource.Id.textView1);
+            // Get the text field to enter the file name
+            EditText fileName = FindViewById<EditText>(Resource.Id.editText1);
             // Get the chronometer
             Chronometer chrono = FindViewById<Chronometer>(Resource.Id.chronometer1);
             // Create a media recorder
             MediaRecorder recorder = new MediaRecorder();
-            // Create the path where the audio file will be writtent
-            string path = "/sdcard/sound";
+            // Create the path where the audio file will be written
+            string path = "/sdcard/soundRecord/";
             // Incremental variable for each sound files
             int i;
 
@@ -48,8 +50,10 @@ namespace soundRecord
             buttonRec.Click += delegate {
                 // Create new timer
                 timer = new Timer();
-                // Set the variable to increment file name to 0
+                // Set the variable to increment file name to 1
                 i = 0;
+                // Disable editText
+                fileName.Enabled = false;
                 // Disable seekbar
                 seek.Enabled = false;
                 // Set the timer
@@ -64,6 +68,8 @@ namespace soundRecord
 
             // Function on click button stop
             buttonStop.Click += delegate {
+                // Enable the file name text edit
+                fileName.Enabled = true;
                 // Enable seekbar
                 seek.Enabled = true;
                 // Kill the timer
@@ -102,21 +108,23 @@ namespace soundRecord
             void startAudioRecord(int nb)
             {
                 string path2;
-                path2 = path + nb + ".3gpp";
+                Console.Write(fileName.Text);
+                path2 = path + fileName.Text + nb + ".3gpp";
+                displaySec.Text = path2;
                 // Test : displaySec.Text = path2;
-                recorder.SetAudioSource(AudioSource.Mic);
-                recorder.SetOutputFormat(OutputFormat.ThreeGpp);
-                recorder.SetAudioEncoder(AudioEncoder.AmrNb);
+                /*recorder.SetAudioSource(AudioSource.Mic);
+                recorder.SetOutputFormat(OutputFormat.AacAdts);
+                recorder.SetAudioEncoder(AudioEncoder.Aac);
                 recorder.SetOutputFile(path);
                 recorder.Prepare();
-                recorder.Start();
+                recorder.Start();*/
             }
 
             // Stop audio record
             void stopAudioRecord()
             {
-                recorder.Stop();
-                recorder.Reset();
+                //recorder.Stop();
+                //recorder.Reset();
             }
 
             // Function which is running each x seconds, where x is the number chosen by the user
