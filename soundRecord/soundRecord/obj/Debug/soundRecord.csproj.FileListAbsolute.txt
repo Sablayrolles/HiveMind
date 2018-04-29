@@ -20,7 +20,6 @@
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/bin/Debug/soundRecord.pdb
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/bin/Debug/com.HiveMind.soundRecord.apk
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/bin/Debug/com.HiveMind.soundRecord-Signed.apk
-/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/soundRecord.csprojResolveAssemblyReference.cache
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/soundRecord.csproj.CoreCompileInputs.cache
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/soundRecord.dll
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/soundRecord.pdb
@@ -34,6 +33,7 @@
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/R.cs.flag
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/uploadflags.txt
-bin/Debug/Mono.Android.pdb
-obj/Debug/linksrc/soundRecord.pdb
-obj/Debug/linksrc/Mono.Android.pdb
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/soundRecord.csprojResolveAssemblyReference.cache
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/bin/Debug/Mono.Android.pdb
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/linksrc/soundRecord.pdb
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/linksrc/Mono.Android.pdb

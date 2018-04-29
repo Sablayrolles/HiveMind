@@ -2,8 +2,9 @@
 using Android.Widget;
 using Android.OS;
 using Android.Media;
-using System;
 using System.Timers;
+using Android;
+using System;
 
 namespace soundRecord
 {
@@ -20,9 +21,9 @@ namespace soundRecord
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
             // Get the button "Record"
-            Button buttonRec = FindViewById<Button>(Resource.Id.buttonRec);
+            Button buttonRec = FindViewById<Button>(Resource.Id.buttonRec1);
             // Get the button "Stop"
-            Button buttonStop = FindViewById<Button>(Resource.Id.buttonStop);
+            Button buttonStop = FindViewById<Button>(Resource.Id.buttonStop1);
             // Get the Seek Bar
             SeekBar seek = FindViewById<SeekBar>(Resource.Id.seekBar1);
             // Get the TextView where we display the Seek Bar information
@@ -34,7 +35,7 @@ namespace soundRecord
             // Create a media recorder
             MediaRecorder recorder = new MediaRecorder();
             // Create the path where the audio file will be written
-            string path = "/sdcard/soundRecord/";
+            string storage_path = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath;
             // Incremental variable for each sound files
             int i;
 
@@ -107,24 +108,22 @@ namespace soundRecord
             // Start audio record
             void startAudioRecord(int nb)
             {
-                string path2;
-                Console.Write(fileName.Text);
-                path2 = path + fileName.Text + nb + ".3gpp";
-                displaySec.Text = path2;
-                // Test : displaySec.Text = path2;
-                /*recorder.SetAudioSource(AudioSource.Mic);
-                recorder.SetOutputFormat(OutputFormat.AacAdts);
+                string f_path;
+                f_path = storage_path + "/music/" + fileName.Text + nb + ".3gpp";
+
+                recorder.SetAudioSource(AudioSource.Mic);
+                recorder.SetOutputFormat(OutputFormat.ThreeGpp);
                 recorder.SetAudioEncoder(AudioEncoder.Aac);
-                recorder.SetOutputFile(path);
+                recorder.SetOutputFile(f_path);
                 recorder.Prepare();
-                recorder.Start();*/
+                recorder.Start();
             }
 
             // Stop audio record
             void stopAudioRecord()
             {
-                //recorder.Stop();
-                //recorder.Reset();
+                recorder.Stop();
+                recorder.Reset();
             }
 
             // Function which is running each x seconds, where x is the number chosen by the user

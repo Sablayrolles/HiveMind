@@ -16,6 +16,7 @@
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.Runtime.InteropServices.dll
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.Reflection.Extensions.dll
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.Reflection.Primitives.dll
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.Net.Http.dll
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Debug/android/assets/System.ServiceModel.Internals.dll

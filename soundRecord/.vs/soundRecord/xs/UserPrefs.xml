@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{C17A007A-D850-4CF9-A0C2-20167A6FB93C}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="soundRecord/MainActivity.cs" Line="113" Column="1" />
+      <File FileName="soundRecord/Properties/AndroidManifest.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.soundRecord AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.CB512DMD74" />
+  <MultiItemStartupConfigurations />
+</Properties>

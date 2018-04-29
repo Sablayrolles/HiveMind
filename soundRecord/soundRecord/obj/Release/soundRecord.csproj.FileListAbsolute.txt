@@ -32,6 +32,6 @@
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Release/res/mipmap-xxxhdpi/icon.png
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Release/R.cs.flag
 /Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Release/uploadflags.txt
-bin/Release/Mono.Android.pdb
-obj/Release/linksrc/soundRecord.pdb
-obj/Release/linksrc/Mono.Android.pdb
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/bin/Release/Mono.Android.pdb
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Release/linksrc/soundRecord.pdb
+/Users/Arnaud/Desktop/FAC/M1/S8/Projet/HiveMind/soundRecord/soundRecord/obj/Release/linksrc/Mono.Android.pdb

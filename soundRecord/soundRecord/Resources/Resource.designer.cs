@@ -45,10 +45,10 @@ namespace soundRecord
 		{
 			
 			// aapt resource value: 0x7f050007
-			public const int buttonRec = 2131034119;
+			public const int buttonRec1 = 2131034119;
 			
 			// aapt resource value: 0x7f050008
-			public const int buttonStop = 2131034120;
+			public const int buttonStop1 = 2131034120;
 			
 			// aapt resource value: 0x7f050003
 			public const int checkedTextView1 = 2131034115;

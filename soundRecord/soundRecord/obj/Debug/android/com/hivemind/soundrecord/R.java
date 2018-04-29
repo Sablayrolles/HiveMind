@@ -11,8 +11,8 @@ public final class R {
     public static final class attr {
     }
     public static final class id {
-        public static final int buttonRec=0x7f050007;
-        public static final int buttonStop=0x7f050008;
+        public static final int buttonRec1=0x7f050007;
+        public static final int buttonStop1=0x7f050008;
         public static final int checkedTextView1=0x7f050003;
         public static final int checkedTextView2=0x7f050001;
         public static final int chronometer1=0x7f050006;
